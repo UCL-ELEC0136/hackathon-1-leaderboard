@@ -1,53 +1,21 @@
 {
- "round": 4,
+ "round": 1,
  "teams": {
   "Team 1": {
    "repo": "hackathon-1-test-group-1",
    "sha": "ab7ef4f64f3573f0a687730a4865af611e734dac",
    "committed": "2026-11-23T20:50:58Z",
-   "graded": "2026-11-23T20:53:00+00:00",
-   "total": 84.4,
+   "graded": "2026-11-23T21:07:58+00:00",
+   "total": 89.0,
    "marks": {
-    "mean_price": 7.4,
-    "domain_mean": 18.6,
-    "share_above": 30.0,
-    "coverage": 14.7,
+    "mean_price": 14.6,
+    "domain_mean": 16.9,
+    "share_above": 29.0,
+    "coverage": 14.9,
     "code_quality": 13.7
    },
    "errors": []
-  },
-  "Team 2": {
-   "repo": "hackathon-1-test-group-2",
-   "sha": "5da0c79f15c3472afe3f2490887787e7c741d65a",
-   "committed": "2026-11-23T20:51:06Z",
-   "graded": "2026-11-23T20:53:10+00:00",
-   "total": 53.9,
-   "marks": {
-    "mean_price": 12.1,
-    "domain_mean": 12.6,
-    "share_above": 5.6,
-    "coverage": 10.1,
-    "code_quality": 13.4
-   },
-   "errors": []
-  },
-  "Team 3": {
-   "repo": "hackathon-1-test-group-3",
-   "sha": "9b5db4fd40174d4485a36dde3adcdfd6c548d8c4",
-   "committed": "2026-11-23T20:51:13Z",
-   "graded": "2026-11-23T20:53:17+00:00",
-   "total": 12.7,
-   "marks": {
-    "mean_price": 0.0,
-    "domain_mean": 0.0,
-    "share_above": 0.0,
-    "coverage": 0.0,
-    "code_quality": 12.7
-   },
-   "errors": [
-    "NotImplementedError: "
-   ]
   }
  },
- "updated": "2026-11-23T21:01:36+00:00"
+ "updated": "2026-11-23T21:07:58+00:00"
 }
