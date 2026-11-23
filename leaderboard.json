@@ -18,7 +18,25 @@
     "prepare: OperationalError: unable to open database file",
     "OperationalError: unable to open database file"
    ]
+  },
+  "Team 2": {
+   "repo": "hackathon-1-test-group-2",
+   "sha": "d54e7430956cbbc9237f22a9f32c47785df53a15",
+   "committed": "2026-11-23T21:59:40Z",
+   "graded": "2026-11-23T22:03:46+00:00",
+   "total": 15.9,
+   "marks": {
+    "mean_price": 0.0,
+    "domain_mean": 0.0,
+    "share_above": 0.0,
+    "coverage": 0.0,
+    "code_quality": 15.9
+   },
+   "errors": [
+    "prepare: OperationalError: unable to open database file",
+    "OperationalError: unable to open database file"
+   ]
   }
  },
- "updated": "2026-11-23T22:03:43+00:00"
+ "updated": "2026-11-23T22:03:46+00:00"
 }
