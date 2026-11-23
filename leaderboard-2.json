@@ -1,1 +1,21 @@
-{"round": 0, "teams": {}}
+{
+ "round": 1,
+ "teams": {
+  "Team 2": {
+   "repo": "hackathon-1-test-group-2",
+   "sha": "d54e7430956cbbc9237f22a9f32c47785df53a15",
+   "committed": "2026-11-23T21:59:40Z",
+   "graded": "2026-11-23T22:27:08+00:00",
+   "total": 57.4,
+   "marks": {
+    "mean_price": 9.7,
+    "domain_mean": 12.1,
+    "share_above": 9.3,
+    "coverage": 10.4,
+    "code_quality": 15.9
+   },
+   "errors": []
+  }
+ },
+ "updated": "2026-11-23T22:27:08+00:00"
+}
