@@ -67,7 +67,7 @@ async function load() {
     html += `<tr class="${fresh}"><td class="rank">${i + 1}</td><td class="team">${esc(name)}${(t.errors || []).length ? `<div class="err">${t.errors.map(esc).join("<br>")}</div>` : ""}</td>` +
       `<td class="total"><div class="bar"><i style="width:${Math.max(0, Math.min(100, t.total))}%"></i><b>${(t.total ?? 0).toFixed(1)}</b></div></td>` +
       COLS.map(([k]) => `<td class="num hide-sm">${m[k] == null ? "–" : m[k].toFixed(1)}</td>`).join("") +
-      `<td class="when hide-sm">${hm(t.graded)}<br>${esc((t.sha || "").slice(0, 7))}</td></tr>`;
+      `<td class="when hide-sm">${t.final ? "<b>final</b> · " : ""}${hm(t.graded)}<br>${esc((t.sha || "").slice(0, 7))}</td></tr>`;
   });
   document.getElementById("board").innerHTML = html + "</tbody></table>";
   last = Object.fromEntries(teams.map(([n, t]) => [n, t.sha]));
