@@ -36,7 +36,18 @@
     "prepare: OperationalError: unable to open database file",
     "OperationalError: unable to open database file"
    ]
+  },
+  "Team 3": {
+   "repo": "hackathon-1-test-group-3",
+   "sha": "c41590ed49e0163fe22ccbcf7c5dd0d6158f0c59",
+   "committed": "2026-11-23T21:59:44Z",
+   "graded": "2026-11-23T22:16:27+00:00",
+   "total": 0,
+   "marks": {},
+   "errors": [
+    "took longer than 15 minutes in total: make your calls faster"
+   ]
   }
  },
- "updated": "2026-11-23T22:03:46+00:00"
+ "updated": "2026-11-23T22:16:27+00:00"
 }
