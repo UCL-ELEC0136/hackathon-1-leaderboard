@@ -1,1 +1,24 @@
-{"round": 0, "teams": {}}
+{
+ "round": 1,
+ "teams": {
+  "Team 1": {
+   "repo": "hackathon-1-test-group-1",
+   "sha": "ab731f3a0b30f4ffa9ec98c8c1a460dfe04864b4",
+   "committed": "2026-11-23T21:59:35Z",
+   "graded": "2026-11-23T22:03:43+00:00",
+   "total": 15.4,
+   "marks": {
+    "mean_price": 0.0,
+    "domain_mean": 0.0,
+    "share_above": 0.0,
+    "coverage": 0.0,
+    "code_quality": 15.4
+   },
+   "errors": [
+    "prepare: OperationalError: unable to open database file",
+    "OperationalError: unable to open database file"
+   ]
+  }
+ },
+ "updated": "2026-11-23T22:03:43+00:00"
+}
