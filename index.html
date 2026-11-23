@@ -50,9 +50,13 @@ let last = {};
 const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const hm = iso => iso ? new Date(iso).toLocaleTimeString("en-GB", {hour:"2-digit", minute:"2-digit", timeZone:"Europe/London"}) : "";
 async function load() {
-  let d;
-  try { d = await (await fetch("leaderboard.json?t=" + Date.now(), {cache:"no-store"})).json(); }
-  catch (e) { return; }
+  // one file per grading runner (shard); merge them
+  const parts = (await Promise.all([0, 1, 2, 3].map(i =>
+    fetch(`leaderboard-${i}.json?t=${Date.now()}`, {cache:"no-store"}).then(r => r.ok ? r.json() : null).catch(() => null)))).filter(Boolean);
+  if (!parts.length) return;
+  const d = {teams: {}, round: Math.max(...parts.map(p => p.round || 0)),
+             updated: parts.map(p => p.updated || "").sort().pop(), final: parts.every(p => p.final)};
+  parts.forEach(p => Object.assign(d.teams, p.teams || {}));
   const teams = Object.entries(d.teams || {}).sort((a, b) => b[1].total - a[1].total || a[0].localeCompare(b[0], undefined, {numeric:true}));
   document.getElementById("meta").textContent = (d.final ? "Final results" : "Round " + d.round) + (d.updated ? " · updated " + hm(d.updated) : "");
   if (!teams.length) { document.getElementById("board").innerHTML = '<p class="empty">No team has pushed yet.</p>'; return; }
