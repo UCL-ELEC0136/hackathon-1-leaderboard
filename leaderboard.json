@@ -30,7 +30,24 @@
     "code_quality": 13.4
    },
    "errors": []
+  },
+  "Team 3": {
+   "repo": "hackathon-1-test-group-3",
+   "sha": "9b5db4fd40174d4485a36dde3adcdfd6c548d8c4",
+   "committed": "2026-11-23T20:51:13Z",
+   "graded": "2026-11-23T21:08:31+00:00",
+   "total": 12.7,
+   "marks": {
+    "mean_price": 0.0,
+    "domain_mean": 0.0,
+    "share_above": 0.0,
+    "coverage": 0.0,
+    "code_quality": 12.7
+   },
+   "errors": [
+    "NotImplementedError: "
+   ]
   }
  },
- "updated": "2026-11-23T21:08:20+00:00"
+ "updated": "2026-11-23T21:08:31+00:00"
 }
