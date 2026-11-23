@@ -15,7 +15,22 @@
     "code_quality": 13.7
    },
    "errors": []
+  },
+  "Team 2": {
+   "repo": "hackathon-1-test-group-2",
+   "sha": "5da0c79f15c3472afe3f2490887787e7c741d65a",
+   "committed": "2026-11-23T20:51:06Z",
+   "graded": "2026-11-23T20:53:10+00:00",
+   "total": 53.9,
+   "marks": {
+    "mean_price": 12.1,
+    "domain_mean": 12.6,
+    "share_above": 5.6,
+    "coverage": 10.1,
+    "code_quality": 13.4
+   },
+   "errors": []
   }
  },
- "updated": "2026-11-23T20:53:00+00:00"
+ "updated": "2026-11-23T20:53:10+00:00"
 }
