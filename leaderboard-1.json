@@ -38,7 +38,26 @@
     "prepare: NotImplementedError: ",
     "NotImplementedError: "
    ]
+  },
+  "Team 1": {
+   "repo": "elec0136-26-27-5-hackathon-1-group-1",
+   "sha": "300f92283b624bdfc21b1b9cd59a4c6dfc7337ff",
+   "committed": "2026-11-24T10:24:41Z",
+   "final": false,
+   "graded": "2026-11-24T10:27:12+00:00",
+   "total": 5.0,
+   "marks": {
+    "mean_price": 0.0,
+    "domain_mean": 0.0,
+    "share_above": 0.0,
+    "coverage": 0.0,
+    "code_quality": 5.0
+   },
+   "errors": [
+    "prepare: NotImplementedError: ",
+    "NotImplementedError: "
+   ]
   }
  },
- "updated": "2026-11-24T10:27:10+00:00"
+ "updated": "2026-11-24T10:27:12+00:00"
 }
