@@ -39,23 +39,23 @@
   },
   "Team 12": {
    "repo": "elec0136-26-27-5-hackathon-1-group-12",
-   "sha": "12b90722a547cfeb1a5a9e9240dded36ab895818",
-   "committed": "2026-11-24T12:05:14Z",
-   "final": false,
-   "graded": "2026-11-24T12:08:44+00:00",
-   "total": 12.7,
+   "sha": "3c510ea91322cdcd2f2d52358897b7902b5f816e",
+   "committed": "2026-11-24T12:28:00Z",
+   "final": true,
+   "graded": "2026-11-24T12:40:11+00:00",
+   "total": 12.3,
    "marks": {
     "mean_price": 0.0,
     "domain_mean": 0.0,
     "share_above": 0.0,
     "coverage": 0.0,
-    "code_quality": 12.7
+    "code_quality": 12.3
    },
    "errors": [
-    "prepare: NotImplementedError: ",
+    "prepare: ConnectionError: HTTPConnectionPool(host='127.0.0.1",
     "NotImplementedError: "
    ]
   }
  },
- "updated": "2026-11-24T12:34:11+00:00"
+ "updated": "2026-11-24T12:40:11+00:00"
 }
