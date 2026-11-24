@@ -5,14 +5,14 @@
    "repo": "elec0136-26-27-5-hackathon-1-group-8",
    "sha": "02f96edaeed8bfa77509e184c1b6c31a36498c12",
    "committed": "2026-11-24T11:58:16Z",
-   "final": false,
-   "graded": "2026-11-24T12:11:55+00:00",
-   "total": 84.7,
+   "final": true,
+   "graded": "2026-11-24T12:51:13+00:00",
+   "total": 82.7,
    "marks": {
-    "mean_price": 11.0,
-    "domain_mean": 14.4,
-    "share_above": 25.8,
-    "coverage": 13.8,
+    "mean_price": 6.2,
+    "domain_mean": 15.6,
+    "share_above": 26.2,
+    "coverage": 15.0,
     "code_quality": 19.6
    },
    "errors": []
@@ -57,5 +57,5 @@
    ]
   }
  },
- "updated": "2026-11-24T12:40:11+00:00"
+ "updated": "2026-11-24T12:51:13+00:00"
 }
