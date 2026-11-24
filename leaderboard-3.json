@@ -1,5 +1,5 @@
 {
- "round": 6,
+ "round": 7,
  "teams": {
   "Team 11": {
    "repo": "elec0136-26-27-5-hackathon-1-group-11",
@@ -19,7 +19,26 @@
     "prepare: NotImplementedError: ",
     "NotImplementedError: "
    ]
+  },
+  "Team 7": {
+   "repo": "elec0136-26-27-5-hackathon-1-group-7",
+   "sha": "d2d58662c302fcfdc09d66ce373c5cffce91c138",
+   "committed": "2026-11-24T10:20:46Z",
+   "final": false,
+   "graded": "2026-11-24T10:22:58+00:00",
+   "total": 5.0,
+   "marks": {
+    "mean_price": 0.0,
+    "domain_mean": 0.0,
+    "share_above": 0.0,
+    "coverage": 0.0,
+    "code_quality": 5.0
+   },
+   "errors": [
+    "prepare: NotImplementedError: ",
+    "NotImplementedError: "
+   ]
   }
  },
- "updated": "2026-11-24T10:20:32+00:00"
+ "updated": "2026-11-24T10:22:58+00:00"
 }
