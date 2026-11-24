@@ -1,5 +1,5 @@
 {
- "round": 23,
+ "round": 24,
  "teams": {
   "Team 8": {
    "repo": "elec0136-26-27-5-hackathon-1-group-8",
@@ -19,21 +19,22 @@
   },
   "Team 4": {
    "repo": "elec0136-26-27-5-hackathon-1-group-4",
-   "sha": "1f0e023356a877bc648fa53e47f154381ccac55f",
-   "committed": "2026-11-24T11:55:48Z",
-   "final": false,
-   "graded": "2026-11-24T12:08:38+00:00",
-   "total": 9.4,
+   "sha": "c97890c8726587b45dccd8e311fa33d48a814c85",
+   "committed": "2026-11-24T12:32:01Z",
+   "final": true,
+   "graded": "2026-11-24T12:34:11+00:00",
+   "total": 0.0,
    "marks": {
     "mean_price": 0.0,
     "domain_mean": 0.0,
     "share_above": 0.0,
     "coverage": 0.0,
-    "code_quality": 9.4
+    "code_quality": 0.0
    },
    "errors": [
-    "prepare: cannot import estimate.py:       ^^^^^^^^^^^^^^^^^^",
-    "cannot import estimate.py:       ^^^^^^^^^^^^^^^^^^^^^^^^^^^"
+    "prepare: cannot import estimate.py: /__init__.py\", line 90, ",
+    "prepare: cannot import estimate.py: /__init__.py\", line 90, ",
+    "prepare: cannot import estimate.py: /__init__.py\", line 90, "
    ]
   },
   "Team 12": {
@@ -56,5 +57,5 @@
    ]
   }
  },
- "updated": "2026-11-24T12:20:41+00:00"
+ "updated": "2026-11-24T12:34:11+00:00"
 }
