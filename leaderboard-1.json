@@ -44,8 +44,8 @@
    "repo": "elec0136-26-27-5-hackathon-1-group-1",
    "sha": "e66004fbf8ce4bffa21e5d371c3b5c4dc9a4059d",
    "committed": "2026-11-24T12:01:05Z",
-   "final": false,
-   "graded": "2026-11-24T12:09:47+00:00",
+   "final": true,
+   "graded": "2026-11-24T12:37:45+00:00",
    "total": 16.8,
    "marks": {
     "mean_price": 0.0,
@@ -78,5 +78,5 @@
    ]
   }
  },
- "updated": "2026-11-24T12:35:00+00:00"
+ "updated": "2026-11-24T12:37:45+00:00"
 }
