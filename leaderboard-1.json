@@ -1,5 +1,5 @@
 {
- "round": 23,
+ "round": 24,
  "teams": {
   "Team 5": {
    "repo": "elec0136-26-27-5-hackathon-1-group-5",
@@ -22,21 +22,22 @@
   },
   "Team 9": {
    "repo": "elec0136-26-27-5-hackathon-1-group-9",
-   "sha": "965ce049a39dec93eb1fa3f9e172bf00d4b500b5",
-   "committed": "2026-11-24T12:15:49Z",
-   "final": false,
-   "graded": "2026-11-24T12:22:09+00:00",
-   "total": 17.1,
+   "sha": "5a05db020ce0ed3abce93879166a8303c35576f6",
+   "committed": "2026-11-24T12:31:10Z",
+   "final": true,
+   "graded": "2026-11-24T12:35:00+00:00",
+   "total": 17.6,
    "marks": {
     "mean_price": 0.0,
     "domain_mean": 0.0,
     "share_above": 0.0,
     "coverage": 0.0,
-    "code_quality": 17.1
+    "code_quality": 17.6
    },
    "errors": [
-    "prepare: NotImplementedError: ",
-    "NotImplementedError: "
+    "prepare: cannot import estimate.py: rap._gcd_import(name[lev",
+    "prepare: cannot import estimate.py: rap._gcd_import(name[lev",
+    "prepare: cannot import estimate.py: rap._gcd_import(name[lev"
    ]
   },
   "Team 1": {
@@ -77,5 +78,5 @@
    ]
   }
  },
- "updated": "2026-11-24T12:22:12+00:00"
+ "updated": "2026-11-24T12:35:00+00:00"
 }
