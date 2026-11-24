@@ -3,22 +3,19 @@
  "teams": {
   "Team 8": {
    "repo": "elec0136-26-27-5-hackathon-1-group-8",
-   "sha": "18bccf239d572f9740ded05524903fc7fd01f77c",
-   "committed": "2026-11-24T10:18:06Z",
+   "sha": "02f96edaeed8bfa77509e184c1b6c31a36498c12",
+   "committed": "2026-11-24T11:58:16Z",
    "final": false,
-   "graded": "2026-11-24T10:18:48+00:00",
-   "total": 5.0,
+   "graded": "2026-11-24T12:11:55+00:00",
+   "total": 84.7,
    "marks": {
-    "mean_price": 0.0,
-    "domain_mean": 0.0,
-    "share_above": 0.0,
-    "coverage": 0.0,
-    "code_quality": 5.0
+    "mean_price": 11.0,
+    "domain_mean": 14.4,
+    "share_above": 25.8,
+    "coverage": 13.8,
+    "code_quality": 19.6
    },
-   "errors": [
-    "prepare: NotImplementedError: ",
-    "NotImplementedError: "
-   ]
+   "errors": []
   },
   "Team 4": {
    "repo": "elec0136-26-27-5-hackathon-1-group-4",
@@ -59,5 +56,5 @@
    ]
   }
  },
- "updated": "2026-11-24T12:08:44+00:00"
+ "updated": "2026-11-24T12:11:55+00:00"
 }
